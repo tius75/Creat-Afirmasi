@@ -6,7 +6,6 @@ const URLS_TO_CACHE = [
   './manifest.json', // Pastikan nama file ini sudah 'manifest.json'
   './logo.png',
   './logo192.png',
-  './logo.png'
 ];
 
 // Event saat Service Worker di-install
