@@ -730,10 +730,11 @@
             });
         });
     </script>
-    <script>
+   <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js', { scope: '/' }) // Pastikan scope sesuai dengan struktur folder Anda
+      // Pastikan path dan scope sesuai dengan nama repository Anda
+      navigator.serviceWorker.register('/Creat-Afirmasi/sw.js', { scope: '/Creat-Afirmasi/' })
         .then(registration => {
           console.log('Service Worker terdaftar dengan scope:', registration.scope);
         })
