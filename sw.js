@@ -1,4 +1,4 @@
-const CACHE_NAME = 'Pembuat-Afirmasi-Video-cache-v1';
+const CACHE_NAME = 'Pembuat-Afirmasi-Video-cache-v2';
 // Daftar file penting yang akan disimpan untuk mode offline
 const URLS_TO_CACHE = [
   './',
