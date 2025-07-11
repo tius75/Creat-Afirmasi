@@ -1,6 +1,6 @@
 {
   "name": "Pembuat Kartu Afirmasi",
-  "short_name": "AfirmasiApp",
+  "short_name": "AfirmasiAppVideo",
   "description": "Buat dan unduh kartu afirmasi pribadi dengan gambar atau video.",
   "start_url": "/",
   "display": "standalone",
