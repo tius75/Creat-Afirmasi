@@ -731,17 +731,17 @@
         });
     </script>
     <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
-                    .then(registration => {
-                        console.log('ServiceWorker registered: ', registration.scope);
-                    })
-                    .catch(registrationError => {
-                        console.log('ServiceWorker registration failed: ', registrationError);
-                    });
-            });
-        }
-    </script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' }) // Pastikan scope sesuai dengan struktur folder Anda
+        .then(registration => {
+          console.log('Service Worker terdaftar dengan scope:', registration.scope);
+        })
+        .catch(error => {
+          console.error('Pendaftaran Service Worker gagal:', error);
+        });
+    });
+  }
+</script>
 </body>
 </html>
