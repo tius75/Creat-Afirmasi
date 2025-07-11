@@ -733,8 +733,8 @@
    <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      // Pastikan path dan scope sesuai dengan nama repository Anda
-      navigator.serviceWorker.register('/Creat-Afirmasi/sw.js', { scope: '/Creat-Afirmasi/' })
+      // Pastikan ini juga menggunakan './' untuk konsistensi
+      navigator.serviceWorker.register('./sw.js', { scope: './' }) 
         .then(registration => {
           console.log('Service Worker terdaftar dengan scope:', registration.scope);
         })
