@@ -2,7 +2,7 @@
   "name": "Pembuat Kartu Afirmasi",
   "short_name": "AfirmasiAppVideo",
   "description": "Buat dan unduh kartu afirmasi pribadi dengan gambar atau video.",
-  "start_url": "/Creat-Afirmasi/",
+"start_url": "./"
   "display": "standalone",
   "background_color": "#1A202C",
   "theme_color": "#1A202C",
