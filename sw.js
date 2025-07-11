@@ -2,7 +2,8 @@ const CACHE_NAME = 'Pembuat-Afirmasi-Video-cache-v1';
 // Daftar file penting yang akan disimpan untuk mode offline
 const URLS_TO_CACHE = [
   './',
-  './index.html',
+ ./index.html',
+  './manifest.json', // Pastikan nama file ini sudah 'manifest.json'
   './logo.png',
   './logo192.png',
   './logo.png'
